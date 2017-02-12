@@ -1,2 +1,2 @@
-This is a portfolio designed and code by Scherwain Massaquoi.
-This portfolio showaces projects I completed throughout obtaining my Front-End Development Nanodegree at Udacity.
+-This is a portfolio designed and code by Scherwain Massaquoi.
+-This portfolio showcases projects I've completed throughout Front-End Development Nanodegree Program at Udacity.
