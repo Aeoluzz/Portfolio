@@ -1,92 +1,75 @@
 body,
 a {
-  color: #777;
+    color: #777;
 }
-
 body {
-  background-color: #fff;
-  font-family: Lato, sans-serif, serif;
+    background-color: #e8e8e8;
+    font-family: Lato, sans-serif, serif;
 }
 a {
-  cursor: pointer;
+    cursor: pointer;
 }
-
 h1 {
-  font-size: 4em;
+    font-size: 4em;
 }
-
 h2 {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
-
 h3 {
-  font-size: 2.3em;
+    font-size: 2.3em;
 }
-
 h4 {
-  font-size: 1.89em;
-  color: #b7611d;
+    font-size: 1.89em;
+    color: #123962;
 }
-
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
-
 header {
-  margin-top: calc((9% - 5px) / 2);
+    margin-top: calc((9% - 5px) / 2);
 }
-
 .name_header,
 .position_sub_header {
-  color: #b7611d; 
-  font-weight: 200;
-  text-transform: uppercase;
+    color: #2e3454;
+    font-weight: 200;
+    text-transform: uppercase;
 }
-
 .name_header {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
-
 .position_sub_header {
-  margin-top: 0;
-  font-size: 2.4em;
+    margin-top: 0;
+    font-size: 2.4em;
 }
-
 hr {
-  border: 1.5px solid #ccbdb6;
+    border: 1.5px solid #123962;
 }
-
-
 .emoticons_grp {
-  margin-top: 10px;
+    margin-top: 10px;
 }
-
 .emoticons {
-  padding: 5px;
+    padding: 5px;
 }
-
-
 .copyright {
-  margin-top: 5px;
-  color: #123962;
+    margin-top: 5px;
+    color: #123962;
 }
+/********************MEDIA QUERRY Section******************************/
 
-@media (min-width: 1200px){
-  .container {
-    max-width: 1200px;
-    margin-left:auto;
-    margin-right: auto;
-  }
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-
 @media (min-width: 320px) and (max-width: 991px) {
-  .name_header,
-  .position_sub_header,
-  .logo {
-    text-align: center;
-  }
-  
-  .name_header {
-    font-size: 3em;
-  }
+    .name_header,
+    .position_sub_header,
+    .logo {
+        text-align: center;
+    }
+    .name_header {
+        font-size: 3em;
+    }
 }
